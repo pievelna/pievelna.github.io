@@ -1,1 +1,74 @@
-Hello world
+<!DOCTYPE html>
+<html>
+<head>
+    <title>pie Velna web site</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        .navbar {
+            background-color: #333;
+            color: #fff;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px;
+        }
+        .navbar-left {
+            font-weight: bold;
+        }
+        .navbar-right {
+            display: flex;
+        }
+        .navbar-right a {
+            color: #fff;
+            margin-left: 10px;
+            text-decoration: none;
+        }
+        .content {
+            flex: 1;
+            margin: 20px;
+        }
+        .content h2 {
+            color: #333;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .bottombar {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+        .bottombar p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <div class="navbar-left">
+            <span>pie Velna website</span>
+        </div>
+        <div class="navbar-right">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+    </div>
+    <div class="content">
+        <h2>About</h2>
+        <p>Your about content goes here.</p>
+    </div>
+    <div class="bottombar">
+        <p>&copy; 2023 Your Website. All rights reserved.</p>
+    </div>
+</body>
+</html>
